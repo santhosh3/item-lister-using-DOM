@@ -1,0 +1,80 @@
+*{
+    padding: 0.2em;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#main-header{
+    background-color: rgb(12, 166, 12);
+    text-align: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 16em;
+    margin-right: 16em;
+    margin-top: 2em;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+#header-title{
+    color: white;
+    font-size: 2em;
+}
+.col-md-6{
+  align-self: center;
+}
+.form-control{
+    height: 2.3rem;
+}
+#item{
+    font-size: 1;
+}
+.container{
+    border: 2px solid gray;
+}
+#main{
+    border: 1px solid gray;
+    display: flex;
+    flex-direction:column;
+}
+.list-group-item{
+    height: 3em;
+    border: 1px solid black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0.5em;
+}
+.list-group-item:nth-child(odd){
+    background-color: rgb(209, 195, 195);
+}
+.list-group-item:nth-child(even){
+    background-color: rgb(230, 220, 220);
+}
+.delete{
+    height: 3em;
+    width: 2em;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+}
+.btn-dark{
+   color: white;
+   background-color: black;
+   border: none;
+   padding: 10px;
+   border-radius: 0.5rem;
+   font-size: 1rem;
+   width: 5rem;
+}
+.title{
+    font-size: 2em;
+}
